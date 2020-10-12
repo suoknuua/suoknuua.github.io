@@ -4,8 +4,8 @@ body {
     line-height: 1.8;
     font-weight: 500;
     background-color: #181c2c;
-    /* background-image: url('marble.jpg'); */
     color: #fff;
+    max-width: 100%;
 }
 
 main {
