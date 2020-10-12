@@ -1,0 +1,247 @@
+body {
+    font-family: "Rajdhani", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+    background-color: #181c2c;
+    /* background-image: url('marble.jpg'); */
+    color: #fff;
+}
+
+main {
+    margin-top: 15vh;
+}
+
+i {
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f76c6c;
+}
+
+hr {
+    border-top: 2px solid #ffffff;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    padding: 30px;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a {
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a:hover {
+     color:#00A0C6; 
+     text-decoration: underline; 
+     cursor: pointer;
+}
+
+.color {
+    background-color: #ffffff;
+}
+
+.link {
+    color: #f8e9a1;
+}
+
+.under_h {
+    border-top: 4px solid rgb(255, 255, 255);
+    width: 2rem;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+}
+
+.name {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.nav-shadow {
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    background: -moz-linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+}
+
+.section-shadow {
+    -webkit-box-shadow: 0px -6px 18px -4px rgba(41, 48, 53, 0.5);
+    -moz-box-shadow: 0px -6px 18px -4px rgba(41, 48, 53, 0.5);
+    box-shadow: 0px -6px 18px -4px rgba(41, 48, 53, 0.5);
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.links {
+    padding: 10px;
+}
+
+.name > h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.pic {
+    position: absolute;
+    margin-left: 30%;
+}
+
+.intro {
+    padding: 40px;
+    margin-top: 40px;
+    text-align: end;
+}
+
+.intro > h4 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.current{
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.current > h1 {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.jobs {
+    padding-left: 40px;
+    margin-top: 40px;
+}
+
+.jobs > h2, .current > h2 {
+    margin-bottom: 30px;
+}
+
+.school {
+    margin: 0px 40px 0px 40px;
+}
+
+.lang {
+    font-size: 26px;
+    color: #f8e9a1;
+}
+
+.category {
+    text-transform: uppercase;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding-top: 10px;
+}
+
+.name a {
+    margin-left: 0px;
+}
+
+@media (max-width: 414.98px) {
+    .school {
+        margin: 0px;
+        margin-bottom: 60px;
+    }
+    nav > a {
+        font-size: 18px;
+    }
+    .name > h1 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+    .current > h1 {
+        font-weight: 700;
+        font-size: 55px;
+    }
+    .jobs {
+        padding-left: 0px;
+    }
+    .pic {
+        height: 18rem;
+    }
+    /* section#career {
+        min-height: 160vh !important;
+    } */
+}
+
+@media (max-width: 767.98px) {
+    section#me {
+        height: 65vh !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .current {
+        padding: 10px;
+    }
+}
+
+section {
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+section#me {
+    min-height: 85vh;
+}
+
+section#me .row{
+    height: 100%;
+}
+
+section#career {
+    /* min-height: 95vh; */
+}
+
+section#projects {
+    /* min-height: 65vh; */
+    background-color:#374785;
+}
+
+section#education {
+    background-color:#212b52;
+}
+
+section#skills {
+    background-color:#21273d;
+}
