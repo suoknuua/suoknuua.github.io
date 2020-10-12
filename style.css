@@ -201,9 +201,9 @@ a:hover {
 }
 
 @media (max-width: 767.98px) {
-    /* section#me {
-        min-height: 85vh !important;
-    } */
+    section#me {
+        min-height: 65vh !important;
+    }
 }
 
 @media (max-width: 992px) {
