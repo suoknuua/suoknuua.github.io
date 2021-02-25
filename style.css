@@ -211,12 +211,6 @@ a:hover {
     .current {
         padding: 10px;
     }
-
-    nav {
-        background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-        background: -webkit-linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-        background: -moz-linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-    }
 }
 
 section {
