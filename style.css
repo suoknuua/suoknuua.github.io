@@ -88,9 +88,9 @@ a:hover {
 }
 
 .nav-shadow {
-    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-    background: -webkit-linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
-    background: -moz-linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0 / 0%));
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0 / 0%));
+    background: -moz-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0 / 0%));
 }
 
 .section-shadow {
