@@ -66,6 +66,10 @@ a:hover {
      cursor: pointer;
 }
 
+.jobs > a {
+    margin-left: 0;
+}
+
 .color {
     background-color: #ffffff;
 }
